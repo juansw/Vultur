@@ -1,0 +1,96 @@
+/*
+Theme Name: vulturmedia
+Theme URI: http://gigfmedia.com/
+Author: GIGf media
+Author URI: http://gigfmedia.com/
+Description: Premium Sports Theme.
+Version: 1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, green, pink, purple, dark, right-sidebar, two-columns, responsive-layout
+Text Domain: gigf
+*/
+
+@import url('css/bootstrap.min.css');
+@import url('css/font-awesome.css');
+@import url('css/owl.carousel.css');
+@import url('css/owl.theme.css');
+@import url('css/owl.transitions.css');
+@import url('css/animate.css');
+@import url('css/mediaelementplayer.css');
+@import url('css/mejs-skins.css');
+@import url('css/prettyPhoto.css');
+@import url('css/woocommerce.css');
+@import url('css/flexslider.css');
+@import url('css/main.css');
+@import url('css/responsive.css');
+
+
+.btn-lg,.btn{
+	border-radius: 0px;
+}
+.gallery-caption{  }
+
+.bypostauthor{  }
+#mailchimp-id{ display:none; }
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.highlights-intro .entry-category a{
+	background-color: #f4c416!important;
+	border: 2px solid #f4c416!important;
+	color: #000!important;
+	/*opacity: 0.8!important;*/
+}
+.highlights-intro .entry-category a:hover{
+	background-color: transparent!important;
+	border: 2px solid #f4c416!important;
+	color: #fff!important;
+	/*opacity: 0.8!important;*/
+}
+.img.initial{
+	width: 553px!important;
+	height: 600px!important;
+}
+.initialRight{
+	margin-bottom: 0px!important;
+}
